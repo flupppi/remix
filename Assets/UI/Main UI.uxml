@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Default_Style.uss?fileID=7433441132597879392&amp;guid=cc8a2485645381f4bab296dd1e74b154&amp;type=3#Default_Style" />
+    <engine:VisualElement style="flex-grow: 1; justify-content: space-between; align-items: center; background-color: rgba(0, 0, 0, 0); height: auto;">
+        <engine:Label text="Test&#10;" style="background-color: rgb(130, 130, 130); border-bottom-width: 0;" />
+    </engine:VisualElement>
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-items: auto;">
+        <engine:Button text="Button" />
+        <engine:Button text="Button" />
+        <engine:Button text="Button" />
+    </engine:VisualElement>
+</engine:UXML>
